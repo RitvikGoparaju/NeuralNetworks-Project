@@ -4,8 +4,10 @@ After downloading, copy the weights file to the project directory.
 
 For Simple Style Transfer -
 python neural\_style1.py --content\_img pengu.jpg --style\_imgs rok.jpg --max\_size 1000 --max\_iterations 50 --device /gpu:0
+
 For Multiple Style Transfer -
 python neural\_style1.py --content\_img pengu.jpg --style\_imgs rok.jpg starry-night.jpg --style\_imgs\_weights 0.5 0,5 --max\_size 1000 --max\_iterations 50  --device /gpu:0
+
 For Segmentation Style Transfer -
 python neural\_style1.py --content\_img pengu.jpg --style\_imgs rok.jpg --style\_mask 1 --style\_mask\_imgs face\_mask.png --max\_size 1000 --max\_iterations 50  --device /gpu:0
 
